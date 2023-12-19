@@ -40,8 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 controller: ingredientsController,
                 prefix: const HeroIcon(
                   HeroIcons.magnifyingGlass,
-                  style: HeroIconStyle
-                      .outline, // Outlined icons are used by default.
+                  style: HeroIconStyle.outline,
                   color: Colors.black,
                 ),
                 filledColor: Colors.white,
